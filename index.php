@@ -1,6 +1,6 @@
 
 <?php
-include __DIR__. 'oop.php';
+include __DIR__. '/class/oop.php';
 ?>
 
 <!DOCTYPE html>
