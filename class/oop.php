@@ -5,16 +5,16 @@ class Product     //Product Class
  public $name;
  public $features;
  public $price;
- public $qty;
+ 
 
 
 
-   public function __construct ($name, $features,$price, $qty = 1 )   //constructor
+   public function __construct ($name, $features,$price)   //constructor
    {
       $this -> name = $name;
       $this -> features = $features;
       $this -> price = $price;
-      $this -> qty = $qty;
+      
    }
 
    public function inform ()
@@ -25,9 +25,9 @@ class Product     //Product Class
 }
 class Phone extends Product
 {
-  function __construct ($name, $features,$price, $qty, $model, $conectivity)
+  function __construct ($name, $features,$price, $model, $conectivity)
    {
-      parent::__construct ($name, $features,$price, $qty);
+      parent::__construct ($name, $features,$price);
       $this -> model = $model;
       $this -> connectivity = $conectivity;
    }
