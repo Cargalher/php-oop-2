@@ -56,8 +56,3 @@ class Customer extends Product
 
 }
 
-$customer = new Customer ('Joseph' , true, 5);
-
-var_dump($customer -> idname);
-var_dump($customer -> creditCard);
-var_dump($customer -> discount);

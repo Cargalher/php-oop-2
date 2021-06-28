@@ -12,7 +12,17 @@ include __DIR__. 'oop.php';
     <title>online-shop</title>
 </head>
 <body>
-    <header></header>
-    <main></main>
+    <header>
+    <h1>Shop Items</h1>
+    </header>
+    <main>
+        <div class="item_one">
+        <?php 
+         echo $producer->printProduct();
+         ?>
+        </div>
+        <div class="item_two">
+        </div>
+    </main>
 </body>
 </html>
