@@ -16,11 +16,20 @@ class Product     //Product Class
       $this -> price = $price;
       
    }
-
+   public function getName ()
+   {
+      
+      return 'Product Name: ' . $this -> name;
+   }
    public function printProduct ()
    {
       
       return 'Product information: ' . $this -> features;
+   }
+   public function getPrice ()
+   {
+      
+      return 'Product price: ' . $this -> price;
    }
 
 }
