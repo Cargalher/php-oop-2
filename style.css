@@ -2,13 +2,16 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 .container{
     
     color: black;
-  
     width: 90%;
     margin: auto;
+}
+body{
+    background-color: #fef0f2;
 }
 header{
     padding: 30px;
@@ -22,12 +25,13 @@ header{
     
 }
 .item_one, .item_two {
-    padding: 1rem;
+    padding: 25px;
     margin: 0.5rem;
-    width: 200px;
     border: 1px solid black;
+    border-radius: 10px;
     height: 340px;
-    flex-basis: 247px;
+    flex-basis: 360px;
+    background-color: #cee0eb;
 }
 h1{
     margin-bottom: 10px;
@@ -36,4 +40,7 @@ h1{
 .feat{
     margin-top: 10px;
     margin-bottom: 30px;
+}
+.price{
+    text-align: center;
 }
