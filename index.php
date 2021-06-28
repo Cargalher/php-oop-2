@@ -22,18 +22,18 @@ include __DIR__. '/class/oop.php';
     <main>
     <div class="container d_flex">
         <div class="item_one">
-            <?php 
-                echo $phone->getName();
-                echo $phone->printProduct();
-                echo $phone->getPrice();
-            ?>
+           
+                <h1> <?php echo $phone->getName();?></h1> 
+                <p> <?php echo $phone->printProduct();?></p> 
+                <p> <?php echo $phone->getPrice();?></p> 
+            
         </div>
         <div class="item_two">
-            <?php 
-                echo $watch->getName();
-                echo $watch->printProduct();
-                echo $watch->getPrice();
-            ?>
+            
+            <h1> <?php echo $watch->getName();?></h1>
+            <p> <?php echo $watch->printProduct();?></p>
+            <p> <?php echo $watch->getPrice();?></p>
+            
         </div>
     
     </div>
