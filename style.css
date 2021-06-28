@@ -18,6 +18,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 .item_one, .item_two {
@@ -26,4 +27,13 @@ header{
     width: 200px;
     border: 1px solid black;
     height: 340px;
+    flex-basis: 247px;
+}
+h1{
+    margin-bottom: 10px;
+}
+
+.feat{
+    margin-top: 10px;
+    margin-bottom: 30px;
 }

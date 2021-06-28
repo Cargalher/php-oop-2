@@ -19,17 +19,17 @@ class Product     //Product Class
    public function getName ()
    {
       
-      return 'Product Name: ' . $this -> name;
+      return '<strong>Product Name: </strong> ' . '<br>' . $this -> name;
    }
    public function printProduct ()
    {
       
-      return 'Product information: ' . $this -> features;
+      return '<strong>Product information: </strong> ' .'<br>' . $this -> features;
    }
    public function getPrice ()
    {
       
-      return 'Product price: ' . $this -> price;
+      return '<strong>Product price: </strong> ' . $this -> price;
    }
 
 }

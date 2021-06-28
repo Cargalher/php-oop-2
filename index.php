@@ -24,15 +24,15 @@ include __DIR__. '/class/oop.php';
         <div class="item_one">
            
                 <h1> <?php echo $phone->getName();?></h1> 
-                <p> <?php echo $phone->printProduct();?></p> 
-                <p> <?php echo $phone->getPrice();?></p> 
+                <p class="feat"> <?php echo $phone->printProduct();?></p> 
+                <p class="price"> <?php echo $phone->getPrice();?></p> 
             
         </div>
         <div class="item_two">
             
             <h1> <?php echo $watch->getName();?></h1>
-            <p> <?php echo $watch->printProduct();?></p>
-            <p> <?php echo $watch->getPrice();?></p>
+            <p class="feat"> <?php echo $watch->printProduct();?></p>
+            <p class="price"> <?php echo $watch->getPrice();?></p>
             
         </div>
     
