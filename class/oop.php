@@ -54,15 +54,4 @@ $watch = new Product ('Garmin Forerunner', 'From open water swims to long traini
 // var_dump($watch -> features);
 // var_dump($watch -> price);
 
-class Customer extends Product
-{
-   function __construct ($name, $features,$price, $qty,  $idname, $creditCard, $discount)
-   {
-      parent::__construct ($name, $features,$price, $qty);
-      $this ->idname = $idname;
-      $this ->creditCard = $creditCard;
-      $this -> discount = $discount;
-   }
-
-}
 
