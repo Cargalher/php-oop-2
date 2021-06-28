@@ -34,7 +34,7 @@ class Phone extends Product
 }
 // product Instance
 $phone = new Product ('Galaxy S21', 'Edge Display, 4K Video Recording, Wireless Charging, Fingerprint Scanner, Multi-SIM',899.99);
-var_dump($smartphone);
+var_dump($phone);
 
 
 
