@@ -5,6 +5,7 @@ class Product     //Product Class
  public $name;
  public $features;
  public $price;
+ public $discount = 0;
  
 
 
@@ -19,17 +20,23 @@ class Product     //Product Class
    public function getName ()
    {
       
-      return '<strong>Product Name: </strong> ' . '<br>' . $this -> name;
+      return '<strong> Product Name: </strong> ' . '<br>' . $this -> name;
    }
    public function printProduct ()
    {
       
-      return '<strong>Product information: </strong> ' .'<br>' . $this -> features;
+      return '<strong> Product information: </strong> ' .'<br>' . $this -> features;
    }
    public function getPrice ()
    {
       
-      return '<strong>Product price: </strong> ' . $this -> price;
+      return '<strong> Product price: </strong> ' . $this -> price;
+   }
+   public function setDiscount ($age)
+   {
+      if ($age>70){
+         $this ->discount = 5;
+      }
    }
 
 }
