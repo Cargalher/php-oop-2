@@ -35,6 +35,11 @@ include __DIR__. '/class/oop.php';
             <p class="price"> <?php echo $watch->getPrice();?></p>
             
         </div>
+
+        <div class="customer">
+
+        
+        </div>
     
     </div>
         
