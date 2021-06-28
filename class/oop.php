@@ -35,7 +35,7 @@ class Product     //Product Class
    public function setDiscount ($age)
    {
       if ($age>70){
-         $this ->discount = 5;
+         $this ->discount = 15;
       }
    }
 
@@ -47,6 +47,14 @@ class Phone extends Product
       parent::__construct ($name, $features,$price);
       $this -> model = $model;
       $this -> connectivity = $conectivity;
+   }
+   public function setDiscount($age)
+   {
+      if($age > 70){
+         $this ->discount =50;
+      } else{
+         $this ->discount = $this -> standard *10;
+      }
    }
 }
 // product Instance
@@ -62,3 +70,10 @@ $watch = new Product ('Garmin Forerunner', 'From open water swims to long traini
 // var_dump($watch -> price);
 
 
+class Customer extends Product{
+   public $standard;
+
+   public function setDiscount ($standard){
+      $this-> standard =$standard;
+   }
+}
