@@ -9,7 +9,7 @@ class Product     //Product Class
 
 
 
-   public function __construct ($name, $features,$price, $qty )   //constructor
+   public function __construct ($name, $features,$price, $qty = 1 )   //constructor
    {
       $this -> name = $name;
       $this -> features = $features;
@@ -33,5 +33,5 @@ class Phone extends Product
    }
 }
 // product Instance
-$smartphone = new Product ('Galaxy S21', 'Edge Display, 4K Video Recording, Wireless Charging, Fingerprint Scanner, Multi-SIM',899.99, 2);
+$smartphone = new Product ('Galaxy S21', 'Edge Display, 4K Video Recording, Wireless Charging, Fingerprint Scanner, Multi-SIM',899.99);
 var_dump($smartphone);
