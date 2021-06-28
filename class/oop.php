@@ -17,7 +17,7 @@ class Product     //Product Class
       
    }
 
-   public function inform ()
+   public function printProduct ()
    {
       return 'Product information: ' . $this -> features;
    }

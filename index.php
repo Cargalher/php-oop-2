@@ -18,7 +18,7 @@ include __DIR__. '/class/oop.php';
     <main>
         <div class="item_one">
         <?php 
-         echo $producer->printProduct();
+         echo $phone->printProduct();
          ?>
         </div>
         <div class="item_two">
