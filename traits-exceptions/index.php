@@ -23,7 +23,7 @@ trait ToDo
 {
     public function watch()
     {
-        return 'I am watching a movie';
+        return 'I am watching my favourite artist';
     }
     public function buy()
     {
@@ -35,6 +35,14 @@ trait ToDo
 /**
  * MovieGenre Class
  */
+class Concert
+{
+use Released, Todo;
+}
+
+$coldPlay = new Concert();
+$coldPlay -> watch ();
+$coldPlay-> buy ();
 class MovieGenre
 {
     public $genre;
