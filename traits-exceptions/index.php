@@ -37,7 +37,11 @@ trait ToDo
  */
 class MovieGenre
 {
-
+    public $genre;
+    public function __construct(string $genre)
+    {
+        $this-> genre=$genre;
+    }
 }
 
 /**
@@ -52,7 +56,7 @@ class Movie extends MovieGenre
    protected $plot;
    
 
-   public function __(string $name, string $director, string $plot)
+   public function __construct(string $name, string $director, string $plot)
    {
       $this-> name =$name;
       $this-> director =$director;
