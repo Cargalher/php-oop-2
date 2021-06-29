@@ -69,11 +69,3 @@ $watch = new Product ('Garmin Forerunner', 'From open water swims to long traini
 // var_dump($watch -> features);
 // var_dump($watch -> price);
 
-
-class Customer extends Product{
-   public $standard;
-
-   public function setDiscount ($standard){
-      $this-> standard =$standard;
-   }
-}

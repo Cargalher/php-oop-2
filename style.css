@@ -32,7 +32,11 @@ header{
     height: 340px;
     flex-basis: 360px;
     background-color: #cee0eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
 h1{
     margin-bottom: 10px;
 }

@@ -1,6 +1,7 @@
 
 <?php
-include __DIR__. '/class/oop.php';
+include __DIR__. '/class/product.php';
+include __DIR__. '/class/customer.php';
 ?>
 
 <!DOCTYPE html>
