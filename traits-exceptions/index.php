@@ -77,7 +77,10 @@ class Cinema     //Product Class
     public $name;
     public $address;
     public $price;
- 
+    public function getName()
+    {
+        return $this ->name;
+    }
 
    public function __construct ($name, $address,$price)   //constructor
    {
@@ -87,13 +90,8 @@ class Cinema     //Product Class
       
    }
 }
-$customer = new Customer('lorem','lorem lorem', 25);
+$movie = new Movie('Kill Bill','Quentin Tarantino', 'A former assassin, known simply as The Bride (Uma Thurman), wakes from a coma four years after her jealous ex-lover Bill (David Carradine) attempts to murder her on her wedding day. Fueled by an insatiable desire for revenge, she vows to get even with every person who contributed to the loss of her unborn child, her entire wedding party.');
 $cinema = new Cinema ('Odeon','Kingswest, West St, Brighton BN1 2RE, United Kingdom',12.50);
 
-$customer -> getName();
+$movie -> getName();
 $cinema -> getName();
-
-
-
-$customer ->year;
-$cinema ->year;
