@@ -27,13 +27,22 @@ trait Watchable
     }
 }
 
+
+/**
+ * MovieGenre Class
+ */
+class MovieGenre
+{
+
+}
+
 /**
  * Movie Class
  */
 
-class Movie
+class Movie extends MovieGenre
 {
-    use released;
+    use released, Watchable;
    protected $name;
    protected $director;
    protected $plot;
