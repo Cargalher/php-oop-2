@@ -16,24 +16,21 @@ trait released
     {
         return $this->name;
     }
-    public function calcAge()
-    {
-        return 'Old';
-    }
+    
 }
 
-
-
-
-
-
-
-
-
+trait Watchable
+{
+    public function watch()
+    {
+        return 'I am watching a movie';
+    }
+}
 
 /**
  * Movie Class
  */
+
 class Movie
 {
     use released;
