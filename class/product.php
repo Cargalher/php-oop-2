@@ -68,4 +68,3 @@ $watch = new Product ('Garmin Forerunner', 'From open water swims to long traini
 // var_dump($watch -> name);
 // var_dump($watch -> features);
 // var_dump($watch -> price);
-

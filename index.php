@@ -1,4 +1,3 @@
-
 <?php
 include __DIR__. '/class/product.php';
 include __DIR__. '/class/customer.php';
