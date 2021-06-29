@@ -19,11 +19,15 @@ trait released
     
 }
 
-trait Watchable
+trait ToDo
 {
     public function watch()
     {
         return 'I am watching a movie';
+    }
+    public function buy()
+    {
+        return 'I am buying the tickets';
     }
 }
 
@@ -42,7 +46,7 @@ class MovieGenre
 
 class Movie extends MovieGenre
 {
-    use released, Watchable;
+    use released, ToDo;
    protected $name;
    protected $director;
    protected $plot;
@@ -101,3 +105,6 @@ $cinema = new Cinema ('Odeon','Kingswest, West St, Brighton BN1 2RE, United King
 
 $movie -> getName();
 $cinema -> getName();
+
+$movie ->watch();
+$movie ->buy();
