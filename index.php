@@ -2,6 +2,9 @@
 <?php
 include __DIR__. '/class/product.php';
 include __DIR__. '/class/customer.php';
+include __DIR__. '/class/creditCard.php';
+include __DIR__. '/class/premiumCustomer.php';
+include __DIR__. '/database/db.php';
 ?>
 
 <!DOCTYPE html>
@@ -37,10 +40,7 @@ include __DIR__. '/class/customer.php';
             
         </div>
 
-        <div class="customer">
-
         
-        </div>
     
     </div>
         

@@ -5,7 +5,7 @@ class Product     //Product Class
  public $name;
  public $features;
  public $price;
- public $discount = 0;
+ 
  
 
 

@@ -17,11 +17,12 @@ class Customer
       $this-> name =$username;
       $this-> name =$password;
    }
-}
-// class Customer extends Product{
-//    public $standard;
 
-//    public function setDiscount ($standard){
-//       $this-> standard =$standard;
-//    }
-// }
+    public function insertCreditCard($creditCard)
+    {
+        return 'Processed payment';
+    }
+
+}
+
+
